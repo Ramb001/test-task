@@ -1,8 +1,9 @@
 .visual {
     margin: 20px;
-    height: 250px;
     overflow: scroll;
-    border: 1px solid black;
+    height: 550px;
+    overflow: auto;
+    border: 1px solid rgb(130, 130, 130);
     border-radius: 32px;
 }
 
@@ -11,4 +12,10 @@
     flex-direction: column;
     gap: 20px;
     padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(74, 74, 255);
 }

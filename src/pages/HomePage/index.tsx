@@ -34,24 +34,23 @@ function HomePage() {
   }
 
   return (
-    <div
-      className={styles.visual}
-      style={{ height: "700px", overflow: "auto" }}
-      id="scrollableDiv"
-    >
-      <InfiniteScroll
-        className={styles.list}
-        loadMore={loadMore}
-        hasMore={fetch}
-        loader={<Loader type="spinner-cub" bgColor={"gray"} size={40} />}
-        useWindow={false}
-        getScrollParent={() => document.getElementById("scrollableDiv")}
-      >
-        {data.map((obj, idx) => {
-          return <Card props={obj} key={idx} />;
-        })}
-      </InfiniteScroll>
-    </div>
+    <>
+      <h1 className={styles.title}>Test task</h1>
+      <div className={styles.visual} id="scrollableDiv">
+        <InfiniteScroll
+          className={styles.list}
+          loadMore={loadMore}
+          hasMore={fetch}
+          loader={<Loader type="spinner-cub" bgColor={"gray"} size={40} />}
+          useWindow={false}
+          getScrollParent={() => document.getElementById("scrollableDiv")}
+        >
+          {data.map((obj, idx) => {
+            return <Card props={obj} key={idx} />;
+          })}
+        </InfiniteScroll>
+      </div>
+    </>
   );
 }
 
