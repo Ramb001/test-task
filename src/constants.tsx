@@ -6,3 +6,11 @@ export type objType = {
   title: string;
   body: string;
 };
+
+export type commentType = {
+  postId: number;
+  id: number;
+  name: string;
+  email: string;
+  body: string;
+};
