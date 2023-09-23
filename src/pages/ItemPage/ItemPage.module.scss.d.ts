@@ -7,3 +7,4 @@ export const main: string;
 export const comments: string;
 export const upperBox: string;
 export const upperTitle: string;
+export const user: string;

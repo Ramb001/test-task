@@ -39,7 +39,7 @@ function ItemPage() {
       </div>
       <div className={styles.box}>
         <div className={styles.main}>
-          <div className={styles.title}>User {data?.userId}</div>
+          <div className={styles.user}>User {data?.userId}</div>
           <div className={styles.info}>
             <div className={styles.title}>{data?.title}</div>
             <div className={styles.description}>{data?.body}</div>
