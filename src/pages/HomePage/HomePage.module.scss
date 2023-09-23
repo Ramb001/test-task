@@ -1,0 +1,14 @@
+.visual {
+    margin: 20px;
+    height: 250px;
+    overflow: scroll;
+    border: 1px solid black;
+    border-radius: 32px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
