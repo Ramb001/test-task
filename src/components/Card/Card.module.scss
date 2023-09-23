@@ -1,0 +1,47 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 16px;
+    background: #0001;
+}
+
+.button {
+    cursor: pointer;
+    margin-left: auto;
+    padding: 5px 8px;
+    background: rgb(74, 74, 255);
+    color: #ffff;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+.description {
+    color: rgb(66, 66, 66);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    max-width: 99%;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
