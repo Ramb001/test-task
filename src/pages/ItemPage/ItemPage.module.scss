@@ -1,0 +1,72 @@
+.box {
+    margin: 20px;
+    border: 1px solid rgb(130, 130, 130);
+    border-radius: 32px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    background: #0001;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.button {
+    margin-right: auto;
+    height: 40px;
+    cursor: pointer;
+    padding: 5px 8px;
+    background: rgb(74, 74, 255);
+    color: #ffff;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+.description {
+    color: rgb(66, 66, 66);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.upperBox {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.upperTitle {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(74, 74, 255);
+    margin-left: auto;
+    margin-right: auto;
+}
